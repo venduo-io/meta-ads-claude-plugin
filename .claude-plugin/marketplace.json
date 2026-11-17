@@ -5,7 +5,7 @@
     "url": "https://venduo.io"
   },
   "metadata": {
-    "description": "Venduo's plugins for Claude."
+    "description": "Venduo's Meta Ads plugin for Claude."
   },
   "plugins": [
     {

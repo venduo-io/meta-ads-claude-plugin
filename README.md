@@ -1,8 +1,9 @@
-# Venduo for Claude
+# Venduo: the Meta Ads plugin for Claude
 
-The Venduo plugin for Claude: how Claude starts a Venduo session, plus
-shortcuts that read your Meta ad account from your workspace's own brain and
-frameworks.
+Venduo's plugin for Claude reads your Meta Ads account (Facebook and Instagram
+ads) from your workspace's own brain and frameworks: how Claude starts a
+Venduo session, plus shortcuts for media-buying reviews, creative analysis,
+creative pipeline planning and adapting reference ads.
 
 | Shortcut | What it does |
 |---|---|
@@ -20,7 +21,7 @@ You need a Venduo workspace: <https://venduo.io>.
 **Claude (web, desktop app, Cowork)**
 
 1. Open **Customize → Plugins → Add → Add marketplace** and enter
-   `venduo-io/claude-plugins`.
+   `venduo-io/meta-ads-claude-plugin`.
 2. Install **Venduo**.
 3. Open the plugin's **Connectors** tab and connect Venduo. Installing the
    plugin does not sign you in; the connector is its own step.
@@ -28,7 +29,7 @@ You need a Venduo workspace: <https://venduo.io>.
 **Claude Code**
 
 ```
-/plugin marketplace add venduo-io/claude-plugins
+/plugin marketplace add venduo-io/meta-ads-claude-plugin
 /plugin install venduo@venduo
 ```
 
@@ -48,3 +49,6 @@ plugin settings, or under `/plugin` → Marketplaces in Claude Code.
 Every file here is generated from Venduo's own source and published
 automatically, so a change made here is overwritten by the next release.
 Questions and feedback: <https://venduo.io>.
+
+Venduo is an independent product. It is not affiliated with or endorsed by
+Meta or Anthropic.
