@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "venduo": {
+      "type": "http",
+      "url": "https://mcp.venduo.io/mcp"
+    }
+  }
+}
