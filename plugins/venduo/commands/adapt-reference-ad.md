@@ -48,10 +48,7 @@ Adapt the reference ad the user named with this command for this business, for t
    `[NEEDED]` — a gap for the team to fill, never something you supply.
 10. Venduo produces nothing. The brief and the script are for the customer's own
    production: Venduo does not write, shoot, generate or upload creative, and
-   changes nothing on Meta. Where the answer also recommends a Meta-side change —
-   launching what gets made, pausing what it replaces — render the breadcrumb
-   block from `venduo://reference/execute-by-reference` and let the user's own
-   agent carry it out, after the user confirms.
+   changes nothing on Meta.
 11. End in a brief and a script for the user's own production, and change nothing: give any Meta-side change as the breadcrumb block from venduo://reference/execute-by-reference, for the user to carry out.
 
     change:        one line — the entity, and the change, from → to
