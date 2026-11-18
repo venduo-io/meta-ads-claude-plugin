@@ -1,7 +1,7 @@
 {
   "name": "venduo",
   "displayName": "Venduo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Venduo for Claude: how to start a Venduo session, plus shortcuts that run Venduo's reading of a Meta ad account from this workspace's own brain and frameworks.",
   "author": {
     "name": "Venduo",
