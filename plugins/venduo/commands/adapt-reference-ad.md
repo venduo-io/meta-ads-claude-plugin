@@ -6,9 +6,9 @@ Adapt the reference ad the user named with this command for this business, for t
 1. Call get_workspace_brain, once per chat. It carries the ICPs, and the company and brand context.
    Everything below is written for THIS business, not for advertising in general,
    and the brain is where this business is written down.
-   Where the brain carries a `## Messaging (as of …)` section, take the positioning,
-   this ICP's row, the objections and the claims from it: a claim that is not in its
-   `clearedClaims` is `[NEEDED]`, whatever the brand prose says.
+   Where the brain's messaging (the "## Messaging (as of …)" line in its text)
+   is set, take the positioning, this ICP's row, the objections and the claims from it:
+   a claim that is not in its `clearedClaims` is `[NEEDED]`, whatever the brand prose says.
 2. Read venduo://creative/vocabulary with Venduo's read_resource tool — the words and the exact values Venduo classifies a creative into; use them verbatim from here on. Read it even if you believe you know the method: this workspace may have edited it. If the brain's enabledFrameworks (the "Venduo frameworks enabled on MCP" line in its text) does not show it on MCP, say that this workspace has not switched that framework on, and read from Venduo's facts alone.
 3. Before any call to Meta's Ads MCP, take the ad account from the brain's adAccount.adAccountId (the "Meta ad account" line in its text) and pass it as ad_account_id. Never pick an account from Meta's own list; if the brain has neither, ask the user which account.
 4. Resolve the reference:
