@@ -9,8 +9,8 @@ Adapt the reference ad the user named with this command for this business, for t
    Where the brain carries a `## Messaging (as of …)` section, take the positioning,
    this ICP's row, the objections and the claims from it: a claim that is not in its
    `clearedClaims` is `[NEEDED]`, whatever the brand prose says.
-2. Read venduo://creative/vocabulary with Venduo's read_resource tool — the words and the exact values Venduo classifies a creative into; use them verbatim from here on. Read it even if you believe you know the method: this workspace may have edited it. If the brain's "Venduo frameworks enabled on MCP" line does not list it, say that this workspace has not switched that framework on, and read from Venduo's facts alone.
-3. Before any call to Meta's Ads MCP, take the ad account from the brain's "Meta ad account" line and pass it as ad_account_id. Never pick an account from Meta's own list; if the brain has no such line, ask the user which account.
+2. Read venduo://creative/vocabulary with Venduo's read_resource tool — the words and the exact values Venduo classifies a creative into; use them verbatim from here on. Read it even if you believe you know the method: this workspace may have edited it. If the brain's enabledFrameworks (the "Venduo frameworks enabled on MCP" line in its text) does not show it on MCP, say that this workspace has not switched that framework on, and read from Venduo's facts alone.
+3. Before any call to Meta's Ads MCP, take the ad account from the brain's adAccount.adAccountId (the "Meta ad account" line in its text) and pass it as ad_account_id. Never pick an account from Meta's own list; if the brain has neither, ask the user which account.
 4. Resolve the reference:
    - a Venduo creative id or a Meta ad id → `get_creative_extraction`, passing
      either one as `adId` (it resolves both). The answer's `metaAdIds` lists every
@@ -32,7 +32,7 @@ Adapt the reference ad the user named with this command for this business, for t
    Keep what makes the reference work — its `messageFramework` and the shape of
    its hook — and replace everything specific to its advertiser: the claims, the
    proof, the product moment, the audience cue. First check with
-   `find_creatives_by_brief` whether this account already runs something close;
+   `find_creatives_by_brief` whether this account's library already holds something close;
    if it does, adapt away from it rather than producing a near-duplicate.
 7. WRITE the output in two parts:
    a. THE BRIEF, in the `creativeBrief` fields the vocabulary lists (§8), with
